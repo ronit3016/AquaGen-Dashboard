@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from backend import get_data
+from Backend import get_data
 import random
 from datetime import datetime, timedelta
 

@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+matplotlib
+streamlit
+requests
+streamlit-autorefresh

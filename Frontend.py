@@ -20,7 +20,7 @@ st.title("💧 AquaGen Mini Dashboard")
 # -------------------------------
 # 🔹 API Call
 # -------------------------------
-response = requests.get("http://127.0.0.1:8000/data")
+response = requests.get("https://aquagen-dashboard.onrender.com/data")
 data = response.json()
 
 df = pd.DataFrame(data)
